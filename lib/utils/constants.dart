@@ -1,8 +1,8 @@
 class Constants {
   static String TOP_HEADLINES_URL =
-      'https://newsapi.org/v2/top-headlines?country=us&apiKey=4949ad1dcf2a41bb812b06d5e788212c';
+      'https://newsapi.org/v2/top-headlines?country=us&apiKey=YOURKEY';
 
   static String headlinesFor(String keyword) {
-    return 'https://newsapi.org/v2/everything?q=$keyword&apiKey=4949ad1dcf2a41bb812b06d5e788212c';
+    return 'https://newsapi.org/v2/everything?q=$keyword&apiKey=YOURKEY';
   }
 }
